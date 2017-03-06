@@ -1,0 +1,14 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:shortcutDisabledMessage="@string/app_name"
+        android:shortcutId="compose"
+        android:shortcutLongLabel="@string/app_name"
+        android:shortcutShortLabel="@string/app_name">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="kidinov.org.test.TempActivity"
+            android:targetPackage="kidinov.org.test"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+</shortcuts>
